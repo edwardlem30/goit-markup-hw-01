@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- шапка -->
+    <header>
+      <h2>
+        <a href="./index.html">WebStudio</a>
+      </h2>
+      <ul>
+        <li>Студия</li>
+        <li>Портфолио</li>
+        <li>Контакты</li>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
+    <!-- Основное -->
+    <main>
+      <!-- Заголовок -->
+      <section>
+        <h1>Эффективные решения для вашего бизнеса</h1>
+        <button>Заказать услугу</button>
+      </section>
+      <!-- Детали -->
+      <section>
+        <h3>Внимание к деталям</h3>
+        <p>
+          Идейные соображения, а также начало повседневной работы по
+          формированию позиции
+        </p>
+
+        <h3>Пунктуальность</h3>
+        <p>
+          Задача организации, в особенности же рамки и местто обучения кадров
+          влечет за собой
+        </p>
+
+        <h3>Планирование</h3>
+        <p>
+          Равным образом консультация с широким активом в значительной степени
+          обуславливает
+        </p>
+
+        <h3>Современные технологии</h3>
+        <p>
+          Значимость этих проблем настолько очевидна, что реализация планвых
+          заданий
+        </p>
+      </section>
+      <!-- Чем мы занимаемся -->
+      <section>
+        <h2>Чем мы занимаемся</h2>
+        <img src="images/box-1.jpg" alt="box-1" />
+        <img src="images/box-2.jpg" alt="box-2" />
+        <img src="images/box-3.jpg" alt="box-3" />
+      </section>
+      <!-- Наша команда -->
+      <section>
+        <h2>Наша команда</h2>
+        <figure>
+          <img src="images/img-1.jpg" alt="фото-1" />
+          <img src="images/img-2.jpg" alt="фото-2" />
+          <img src="images/img-3.jpg" alt="фото-3" />
+          <img src="images/img-4.jpg" alt="фото-4" />
+          <h4>
+            <span>Игорь Демьяненко</span>
+            <span>Ольга Репина</span>
+            <span>Николай Тарасов</span>
+            <span>Михаил Ермаков</span>
+          </h4>
+          <p>Product Designer</p>
+
+          <figcaption>
+            <h4>Игорь Демьяненко</h4>
+            <p>Product Designer</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <figcaption>
+            <h4>Ольга Репина</h4>
+            <p>Frontend Developer</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <figcaption>
+            <h4>Николай Тарасов</h4>
+            <p>Marketing</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <figcaption>
+            <h4>Михаил Ермаков</h4>
+            <p>UI Designer</p>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+    <!-- Низ сайта -->
+    <footer>
+      <h2>
+        <a href="./index.html">WebStudio</a>
+      </h2>
+      <ul>
+        <li>
+          <a
+            href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            >г.Киев, пр. Леси Украинки, 26</a
+          >
+        </li>
+        <li><a href="mailto:info@example.com">info@example.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
